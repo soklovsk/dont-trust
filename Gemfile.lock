@@ -1,0 +1,22 @@
+GEM
+  specs:
+    childprocess (0.7.1)
+      ffi (~> 1.0, >= 1.0.11)
+    ffi (1.9.18)
+    mini_magick (4.8.0)
+    redis (4.0.1)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.8.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mini_magick
+  redis
+  selenium-webdriver (~> 3.8.0)
+
+BUNDLED WITH
+   1.15.4
